@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Reggae+One&display=swap'); /*cyrillic*/
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+Tokumin&display=swap'); /*japanese*/
+
+
+html {
+    cursor: url("../media/general/default.cur"), default;
+    font-family: 'Underdog', cursive;
+    background-image: url("backgrount.jpg");
+    background-size: 200%;
+}
+.table {
+    transition-duration: 0.2s;
+    padding: 5px 5px 5px 5px;
+    font-family: 'Reggae One', cursive;
+    color: rgb(231, 231, 231);
+    border-radius: 10px;
+    font-size: 15px;
+    border-color: rgb(85, 36, 90);
+}
+.table:hover {
+    transition-duration: 0.2s;
+    box-shadow: black 7px 7px 5px 5px;
+}
+.table2 {
+    text-align: center;
+    color: rgb(228, 228, 228);
+    background-color: rebeccapurple;
+}
+
+.jptext {
+    font-family: 'Kaisei Tokumin', serif;
+}
+th, td {
+    height: 50px;
+    transition-duration: 0.3s;
+}
+th:hover, td:hover {
+    background-color: rgb(81, 39, 129);
+    transition-duration: 0.3s;
+    text-shadow: 1px 2px 10px;
+}
+
+.update {
+    font-family: 'Reggae One', cursive;
+    font-size: 15px;
+    color: rgb(231, 231, 231);
+}
